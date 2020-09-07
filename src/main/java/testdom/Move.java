@@ -59,7 +59,6 @@ class MovieRepository {
 
     @Repository
     public class MovieRowMapper implements RowMapper {
-        @Override
         public Movie mapRow(ResultSet rs, int rowNum) throws SQLException {
             String name = rs.getString("name");
             int year = rs.getInt("year");

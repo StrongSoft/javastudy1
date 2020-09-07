@@ -1,7 +1,3 @@
-import java.lang.reflect.Constructor;
-import java.util.Arrays;
-import java.util.stream.Stream;
-
 public class Constructor2 {
     public Constructor2() {
     }
